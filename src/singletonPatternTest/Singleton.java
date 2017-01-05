@@ -6,6 +6,7 @@ public class Singleton {
 	
 	//this is here just to handle instantiation attempts
 	protected Singleton(){
+		System.out.println("instantiation attempt");
 	}
 	
 	public static Singleton getInstance(){
